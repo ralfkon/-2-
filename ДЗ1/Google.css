@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+.google_logo {
+    width: 30%;
+    margin-top: -15%;
+
+}
+.google_search {
+    display: flex;
+    position: absolute;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.google_text {
+    color: #2f3640;
+    font-size: 16px;
+    transition: .4s;
+    line-height: 40px;
+margin-top: 2%;
+}
